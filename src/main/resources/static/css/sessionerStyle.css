@@ -6,7 +6,6 @@
 
 body {
     font-family: 'Karla', sans-serif;
-    background-color: #F1F7ED;
 }
 
 a{
@@ -18,6 +17,10 @@ a{
 a:visited {
     background-color: transparent;
     color: transparent;
+}
+
+.page-wrapper {
+    background-color: #F1F7ED;
 }
 
 .title-container {

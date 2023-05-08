@@ -1,0 +1,127 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+}
+
+.page-wrapper {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    padding: 5% 0;
+    background-color: #F1F7EDFF;
+}
+
+.text-container {
+    background-color: white;
+    width: 90%;
+    border-radius: 10px;
+    display: flex;
+    padding: 4% 0;
+}
+
+.left-text-container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding: 0 4%;
+}
+
+.left-text-container h2 {
+    font-size: 32px;
+    font-weight: normal;
+}
+
+.green-line {
+    border: 1px solid #7CA982;
+    height: 1px;
+    width: 440px;
+    margin-top: 4px;
+    margin-bottom: 3%;
+}
+
+.left-text-container p {
+    font-size: 16px;
+    line-height: 32px;
+}
+
+.right-text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    padding: 0 4%;
+}
+
+.right-text-container ul {
+    list-style-type: none;
+    margin-left: 20px;
+    padding-left: 0;
+}
+
+.right-text-container ul li {
+    position: relative;
+    padding-left: 30px;
+    line-height: 1.4;
+}
+
+.right-text-container ul li:before {
+    padding-top: 15px;
+    content: "\2022";
+    color: #7CA982;
+    font-size: 64px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-55%);
+}
+
+.right-text-container li {
+    padding-top: 15px;
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.right-text-container p {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.price-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price-container h1 {
+    font-size: 28px;
+    font-weight: bolder;
+    margin: 3%;
+}
+
+.btn {
+    border: none;
+    background-color: #7CA982;
+    color: white;
+    border-radius: 5px;
+    padding: 15px;
+    font-size: 24px;
+    margin: 3%;
+    transition: transform 0.3s;
+}
+
+.btn:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

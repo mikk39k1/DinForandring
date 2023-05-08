@@ -45,4 +45,19 @@ public class WebsiteController {
     public String vægttab(){
         return "artikler/vægttab";
     }
+
+    @GetMapping("/priser")
+    public String priser(){
+        return "priser/priser";
+    }
+
+    @GetMapping("/kontakt")
+    public String kontakt(){
+        return "kontakt/kontakt";
+    }
+
+    @GetMapping("/fakta&myter")
+    public String faktaogmyter(){
+        return "fakta&myter/fakta&myter";
+    }
 }
