@@ -20,4 +20,29 @@ public class WebsiteController {
     public String sessioner(){
         return "sessioner/sessioner";
     }
+
+    @GetMapping("/artikler")
+    public String artikler(){
+        return "artikler/angst";
+    }
+
+    @GetMapping("/angst")
+    public String angst(){
+        return "artikler/angst";
+    }
+
+    @GetMapping("/fobier")
+    public String fobier(){
+        return "artikler/fobier";
+    }
+
+    @GetMapping("/rygestop")
+    public String rygestop(){
+        return "artikler/rygestop";
+    }
+
+    @GetMapping("/vægttab")
+    public String vægttab(){
+        return "artikler/vægttab";
+    }
 }

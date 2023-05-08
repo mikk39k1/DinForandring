@@ -4,15 +4,23 @@
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
 nav {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
     background-color: transparent;
 }
 
 .logo-wrapper {
     display: flex;
     align-items: center;
-    font-family: 'Crimson Text', serif;
     padding-left: 5%;
 }
 
@@ -35,15 +43,6 @@ nav {
 
 .nav-options li {
     padding: 0 30px;
-}
-
-.nav-options a {
-    text-decoration: none;
-    color: black;
-}
-
-.nav-options a:visited {
-    color: black;
 }
 
 .login-btn {

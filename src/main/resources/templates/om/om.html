@@ -5,24 +5,31 @@
     <title>Om</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Quicksand&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text&family=Open+Sans&family=Quicksand&display=swap"
-          rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
+
 
     <link rel="stylesheet" type="text/css" href="/css/omStyle.css">
     <link rel="stylesheet" type="text/css" href="/css/navbarStyle.css">
+    <link rel="stylesheet" type="text/css" href="/css/dropdown.css">
 </head>
 <body>
 <header>
     <nav class="navbar">
         <div class="logo-wrapper">
-            <img class="logo-image" src="/images/dinforandringLogo.png" alt="logo">
-            <h1 class="logo-text">Din Forandring</h1>
+            <a href="/"><img class="logo-image" src="/images/dinforandringLogo.png" alt="logo"></a>
+            <a href="/"><h1 class="logo-text">Din Forandring</h1></a>
         </div>
         <ul class="nav-options">
-            <li><a href="/artikler">Artikler</a></li>
+            <li>
+                <div class="dropdown">Artikler
+                    <div class="dropdown-content">
+                        <a href="/angst">Angst</a>
+                        <a href="/fobier">Fobier</a>
+                        <a href="/rygestop">Rygestop</a>
+                        <a href="/vægttab">Vægttab</a>
+                    </div>
+                </div>
+            </li>
             <li><a href="/sessioner">Sessioner</a></li>
             <li><a href="/fakta&myter">Fakta & Myter</a></li>
             <li><a href="/priser">Priser</a></li>

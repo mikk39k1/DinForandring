@@ -5,8 +5,19 @@
 }
 
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Karla', sans-serif;
     background-color: #F1F7ED;
+}
+
+a{
+    text-decoration: none;
+    background-color: transparent;
+    color: transparent;
+}
+
+a:visited {
+    background-color: transparent;
+    color: transparent;
 }
 
 .title-container {
@@ -15,7 +26,6 @@ body {
 }
 
 .title-container h1 {
-    font-family: 'Crimson Text', serif;
     font-weight: lighter;
     font-size: 48px;
     padding: 3%;
@@ -30,6 +40,7 @@ body {
     justify-content: center;
 }
 
+
 .card {
     background: white;
     display: flex;
@@ -41,6 +52,12 @@ body {
     padding: 1.5%;
     border-radius: 10px;
     box-shadow: 1px 2px 7px 2px #e1e1e1;
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    cursor: pointer;
+    transform: scale(1.05);
 }
 
 .card img {
@@ -52,6 +69,7 @@ body {
     padding: 1.5% 0;
     font-size: 22px;
     color: #B6990F;
+    text-align: center;
 }
 
 .card p {
@@ -62,17 +80,26 @@ body {
 
 /*INFO SECTION*/
 
+.info-wrapper {
+    display: flex;
+    justify-content: center;
+}
+
 .info-container {
     display: flex;
-    align-items: center;
-    height: 30vh;
+    justify-content: center;
+    height: auto;
+    width: 65%;
     background: white;
     box-shadow: 1px 2px 7px 2px #e1e1e1;
     padding: 2% 8%;
+    padding-bottom: 80px;
     margin: 3% 0;
+    border-radius: 10px;
 }
 
 .info-container img {
+    margin-right: 5%;
     height: 150px;
     width: 150px;
 }
@@ -80,15 +107,45 @@ body {
 .info-text-wrapper {
     display: flex;
     flex-direction: column;
+    align-items: center;
+}
+
+.info-text-wrapper p {
+    font-size: 18px;
+    font-weight: lighter;
 }
 
 .info-title-container {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    margin: 2% 0;
+}
+
+.info-title-container-2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2% 0;
+    padding-top: 40px;
+}
+
+.info-title-container h2, .info-title-container-2 h2 {
+    font-size: 32px;
 }
 
 .green-line {
     border: 1px solid #7CA982;
     height: 1px;
-    width: 140px;
+    width: 340px;
+    margin-top: 4px;
+    margin-bottom: 3%;
+}
+
+.green-line-2 {
+    border: 1px solid #7CA982;
+    height: 1px;
+    width: 400px;
+    margin-top: 4px;
+    margin-bottom: 3%;
 }
