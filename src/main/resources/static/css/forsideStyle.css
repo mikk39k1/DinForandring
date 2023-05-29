@@ -67,6 +67,10 @@ body {
     cursor: pointer;
 }
 
+#book-btn {
+    color: white;
+}
+
 /* Base styles are already provided in the original post */
 
 /* Mobile styles (max-width: 767px) */

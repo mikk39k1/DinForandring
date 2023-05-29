@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Kontakt</title>
-
+    <link rel="icon" href="/images/dinforandringLogo.png" type="image/x-icon">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet">
@@ -36,12 +36,14 @@
             <li><a href="/om">Om</a></li>
             <li><a href="/kontakt">Kontakt</a></li>
         </ul>
-        <button class="login-btn">Log Ind</button>
+        <button class="login-btn"><a href="http://20.4.75.58:8080/signin" target="_blank">Log Ind</a></button>
     </nav>
 </header>
 <div class="contact-wrapper">
     <form class="contact-form">
-        <div class="input-forms">
+
+        <iframe src="http://20.4.75.58:8080/newCustomerRequest?businessId=2" height="500" width="500" title="Contact Form"></iframe>
+        <!--<div class="input-forms">
             <div class="input-forms-top">
                 <div class="firstname">
                     <label for="firstname">Fornavn:</label>
@@ -72,12 +74,7 @@
                 </div>
             </div>
         </div>
-
-
-
-        <div class="button-container">
-            <button class="btn" type="submit">Submit</button>
-        </div>
+-->
     </form>
     <div class="image">
         <img src="/images/kontakt.png" alt="Contact Image">
